@@ -51,9 +51,9 @@ body {
 #profilepic {
     position: absolute;
     width: 20%;
-    height: 25%;
-    margin-left: 2%;
-    margin-top: 14%;
+    height: 30%;
+    margin-left: 0.1%;
+    margin-top: 0.5%;
 }
 #p1 {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
