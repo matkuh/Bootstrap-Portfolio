@@ -5,6 +5,7 @@ body {
     background: white;
     height: 80px;
     position: relative;
+    padding: 20px;
 }
 #namebar {
     font-size: 30px;
@@ -19,10 +20,13 @@ body {
     left: 250px;
 }
 #navbuttons {
+    /* position: absolute; */
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #777777;
-    padding: 20px;
-    margin-right: 18%;
+    margin-right: 20%;
+    margin-top: 0.5%;
+    /* margin-left: 60%; */
+    /* margin-top: 1.5%; */
 }
 #bodycontainer {
     margin-left: 250px;
@@ -52,7 +56,7 @@ body {
     position: absolute;
     width: 20%;
     height: 30%;
-    margin-left: 0.1%;
+    margin-left: 0.01%;
     margin-top: 0.5%;
 }
 #p1 {
@@ -211,3 +215,127 @@ img {
     height: 30px;
     z-index: 1;
 }
+@media screen and (max-width: 980px) {   
+    #namebar {
+        left: 100px;
+    }
+    #bodycontainer {
+        width: 80%;
+        height: 600px;
+        margin-left: 100px;
+    }
+    #portbodywrap {
+        width: 80%;
+        height: 700px;
+        margin-left: 100px;
+    }
+    #formgroup {
+        margin-top: 20%;
+    }
+
+
+@media screen and (max-width: 768px) {
+    #namebar {
+        left: 100px;
+    }
+    #profilepic {
+        position: absolute;
+        width: 18%;
+        height: 25%;
+        margin-left: -1%;
+        margin-top: 0.5%;
+    }
+    #p1 {
+        top: 20%;
+    }
+    #p2 {
+        top: 50%;
+    }
+    #bodycontainer {
+        width: 80%;
+        height: 700px;
+        margin-left: 100px;
+    }
+    #portbodycontainer {
+        width: 80%;
+        height: 700px;
+        margin-left: 100px;
+    }
+
+
+@media screen and (max-width: 640px) {
+    #navbuttons {
+        width: 100%;
+        z-index: 2;
+        margin-top: 20px;
+        background: white;
+        margin-left: -140px;
+    }
+    #namebar {
+        left: 0px;
+        width: 100%;
+        z-index: 1;
+        height: 40px;
+    }
+    #bodycontainer {
+        width: 80%;
+        height: 800px;
+        margin-left: 100px;
+    }
+    #p1 {
+        top: 15%;
+    }
+    #p2 {
+        top: 50%;
+    }
+    #about {
+        top: 45px;
+        padding: 10px;
+        padding-left: 700px;
+        right: 54%;
+    }
+    #portfolio {
+        padding-left: 20px;
+        padding: 10px;
+        top: 45px;
+        right: 43%;
+
+    }
+    #contact {
+        padding: 10px;
+        top: 45px;
+        z-index: 2;
+        right: 0;
+        padding-right: 250px;
+
+    }
+    #portbodycontainer {
+        width: 45%;
+        height: 1100px;
+        margin-left: 220px;
+    }
+    #cptext {
+        left: 320px;
+    } 
+    
+    #img1 {
+        left: 30px;
+        top: 660px;
+    }
+    #img2 {
+        left: 30px;
+        top: 840px;
+    }
+    #krabs {
+        left: 30px;
+        top: 750px;
+    }
+    #squid {
+        left: 30px;
+        top: 930px;
+    }
+    #formgroup {
+        margin-top: 30%;
+    }
+
+    
