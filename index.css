@@ -20,13 +20,10 @@ body {
     left: 250px;
 }
 #navbuttons {
-    /* position: absolute; */
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #777777;
     margin-right: 20%;
-    margin-top: 0.5%;
-    /* margin-left: 60%; */
-    /* margin-top: 1.5%; */
+    margin-top: 0.1%;
 }
 #bodycontainer {
     margin-left: 250px;
@@ -107,7 +104,6 @@ hr {
     position: absolute;
     margin-top: 12%;
     margin-left: 2%;
-
 }
 .card-deck {
     position: absolute;
@@ -232,6 +228,7 @@ img {
     #formgroup {
         margin-top: 20%;
     }
+    }
 
 
 @media screen and (max-width: 768px) {
@@ -261,6 +258,7 @@ img {
         height: 700px;
         margin-left: 100px;
     }
+}
 
 
 @media screen and (max-width: 640px) {
@@ -337,5 +335,13 @@ img {
     #formgroup {
         margin-top: 30%;
     }
+}
 
-    
+
+
+
+
+
+
+
+
